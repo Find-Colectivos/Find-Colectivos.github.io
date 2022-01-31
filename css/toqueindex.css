@@ -1,0 +1,102 @@
+*{
+    margin: 0; padding: 0;
+}
+body {
+    
+    background-image: url("img/fondo.jpg");
+    
+    background-position: center center;
+
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+      
+    background-size: cover;
+    
+}
+#logo {
+    width: 400;
+    height: 250px;
+    margin: 0 auto;
+    display:block;
+    margin-top: 10%;
+}
+@keyframes latidos {
+    from { transform: none; }
+    10% { transform: scale(0.1);}
+    to { transform: none; }
+}
+#logo {
+	animation: latidos .9s;
+	transform-origin: center;
+}
+#iniciar{
+   font-size: 2rem;
+   font-family: Agency FB;
+   font-weight: bolder;
+   text-align: center;
+   border-radius: 35%;
+   width: 200px;
+   border: solid;
+   margin: 0 auto;
+   display: block;
+   margin-top: 3%;
+}
+#buscando{
+    font-family: Agency FB;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#myProgress {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    margin-top: 10%;
+}
+#myBar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: yellow;
+}
+#label {
+    text-align: center; /* If you want to center it */
+    line-height: 30px; /* Set the line-height to the same as the height of the progress bar container, to center it vertically */
+    color:black;
+    font-family: Agency FB;
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+@media screen and (max-width: 600px){
+    #logo {
+        width: 100%;
+        height: 150px;
+        margin-top: 50%;
+    }
+    #iniciar{
+        font-size: 1.4rem;
+        font-family: Agency FB;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 10%;
+        border-radius: 35%;
+        width: 100px;
+        border: solid;
+        margin: 0 auto;
+        display: block;
+        margin-top: 20%;
+     }
+     #buscando{
+         font-size: 1.4rem;
+     }
+     
+     #myProgress {
+         margin-top: 20%;
+     }
+     #label {
+         font-size: 1.4rem;
+     }
+}
