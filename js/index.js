@@ -5,7 +5,7 @@ function move() {
     function frame() {
         if (width >= 100) {
             clearInterval(id);
-            location.replace("FindBus.html");
+            location.replace("pag/findbus.html");
         }       
          else {
             width++;
