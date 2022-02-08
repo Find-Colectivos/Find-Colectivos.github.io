@@ -79,13 +79,14 @@ p {text-align: center; margin-top: -2%; font-family: Agency FB; font-weight: bol
 .slider__btn--left{left: 16px; position: absolute;}
 .slider__btn--right{right: 16px;position: absolute;}
 #buscar{font-size: 1.4rem; font-family: Agency FB; font-weight: bolder; width: 100px; border-radius: 35%; margin: 0 auto; display: block; margin-top: 5%;}
+#btnBuscar{margin:5%}    
 h2 {text-align: center; text-decoration: underline;}
 #buscando{
     font-size: 1.4rem;
 }
 
 #myProgress {
-    margin-top: 15%;
+    margin-top: 10%;
 }
 #label {
     font-size: 1.4rem;
